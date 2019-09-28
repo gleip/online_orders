@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "allowJs": false,
+    "declaration": true
+  },
+  "include": ["."],
+  "exclude": ["node_modules"]
+}

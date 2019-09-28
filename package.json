@@ -1,0 +1,20 @@
+{
+  "name": "use-rabbit-from-nodejs",
+  "version": "1.0.0",
+  "description": "3on.gleip",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.5.13",
+    "amqplib": "^0.5.5"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
